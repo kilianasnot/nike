@@ -1,0 +1,36 @@
+<a href="/"><% include header %></a>
+
+<br><br><br>
+
+<section>
+
+    <h2 class="title2">
+      <%- item.titel %>
+    </h2>
+    <img src="/img/<%- item.afbeeldingl %>" alt="<%- item.titel %>">
+
+    <p class="dtm"><%- item.datum %></p>
+
+    <br>
+
+    <p>
+      <%- item.body %>
+    </p>
+
+    <br><br><br>
+
+    <div class="grp">
+      <img class="grpa" src="/img/<%- item.afbeeldinge1 %>" alt="<%- item.titel %>">
+      <img class="grpa" src="/img/<%- item.afbeeldinge2 %>" alt="<%- item.titel %>">
+      <img class="grpa" src="/img/<%- item.afbeeldinge3 %>" alt="<%- item.titel %>">
+    </div>
+
+    <p>Gepost in categorieën:
+
+      <% for (var i = 0; i < item.categorieen.length; i++) { %>
+        <a href="/categorieen/<%- i %>"><%- item.categorieen[i] %></a><% if (i+1< item.categorieen.length){ %>, <% } %>
+      <% } %>
+    </p>
+</section>
+
+<% include footer %>

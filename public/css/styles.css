@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Nunito');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  width: 90%;
+  margin: 25px auto;
+  line-height: 1.4em;
+}
+
+section {
+  color: red;
+}
+
+nav {
+  font-style: italic;
+  background-color: #ededed;
+  width: 98%;
+  padding: 1%;
+  text-align: right;
+  word-spacing: 30px;
+  font-family: 'Anton', sans-serif;
+}
+
+a {
+  color: #3d3d3d;
+  text-decoration: none;
+}
+
+.title {
+  font-family: 'Anton', sans-serif;
+  background-color: white;
+  padding: 1%;
+  margin-top: 25%;
+  padding-left: 2%;
+  position: absolute;
+  text-transform: uppercase;
+  color: white;
+}
+
+.title2 {
+  font-family: 'Anton', sans-serif;
+  background-color: white;
+  padding: 1%;
+  margin-top: 25%;
+  padding-left: 2%;
+  position: absolute;
+  text-transform: uppercase;
+  color: #3d3d3d;
+}
+
+#cat {
+  color: red;
+  border: 1px solid black;
+  padding: 3px;
+  text-transform: uppercase;
+  background-color: #ededed;
+  font-weight: bolder;
+
+}
+
+.cattext {
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.nikeheader {
+  min-width: 100%;
+}
+
+.del {
+  text-decoration: underline;
+  margin-top: 0;
+}
+
+h1 {
+}
+
+section {
+  margin-bottom: -2%;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin: 10px 0;
+  color: #3d3d3d;
+  font-weight: bolder;
+}
+
+h2 {
+  margin: 25px 0;
+}
+
+h3 {
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.grp {
+  max-width: 96%;
+  margin-left: 2%;
+}
+.grpa {
+  width: 32%;
+}
+.dtm {
+  font-size: .6em;
+}
+
+@media screen and (max-width: 480px) {
+    a {
+        font-size: .5em;
+    }
+    .title {
+
+      padding: .5%;
+      padding-right: 2%;
+      margin-top: 20%;
+      padding-left: 1%;
+    }
+    .title2 {
+      font-family: 'Anton', sans-serif;
+      background-color: white;
+      padding: 1%;
+      margin-top: 25%;
+      padding-left: 2%;
+    }
+    h2 {
+      font-size: .5em;
+    }
+    #cat {
+      color: red;
+      border: 1px solid black;
+      padding: 3px;
+      text-transform: uppercase;
+      background-color: #ededed;
+      font-weight: bolder;
+    }
+
+    .cattext {
+      font-size: .6em;
+      font-weight: bolder;
+    }
+    .grp {
+      max-width: 96%;
+      margin-left: 2%;
+    }
+    .grpa {
+      width: 32%;
+    }
+    .dtm {
+      font-size: .6em;
+    }
+}
