@@ -111,6 +111,11 @@ nav a {
 .dtm {
   font-size: .6em;
 }
+.ftr {
+  font-size: .6em;
+  text-decoration: underline;
+  text-align: right;
+}
 
 @media screen and (max-width: 480px) {
     a {
